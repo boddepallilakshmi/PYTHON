@@ -1,0 +1,7 @@
+num1=int(input())
+str1=str(num1)
+a=(str1[0]== "0")
+b=(str1[1]== "0")
+c=(str1[2]== "0")
+k=(a or b or c)
+print(k)
